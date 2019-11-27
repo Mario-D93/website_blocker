@@ -19,7 +19,8 @@ We can set up the task using crontab. Run following:
 ```sudo contab -e```  
 
 Then add this line in the end of the file:  
-```@reboot python /path_to_the_scr```    
+```@reboot python /path_to_the_scr```  
+
 *This will execute the script when os starts*  
 
 ### WINDOWS:
